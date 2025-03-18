@@ -2391,21 +2391,21 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 10.16 0)
+				(at 1.27 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x07_Odd_Even"
+			(property "Value" "Conn_02x06_Odd_Even"
 				(at 1.27 -10.16 0)
 				(effects
 					(font
@@ -2431,7 +2431,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2458,7 +2458,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x07_Odd_Even_1_1"
+			(symbol "Conn_02x06_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -7.493)
 					(end 0 -7.747)
@@ -2526,18 +2526,7 @@
 					)
 				)
 				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 8.89)
+					(start -1.27 6.35)
 					(end 3.81 -8.89)
 					(stroke
 						(width 0.254)
@@ -2613,19 +2602,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -2643,7 +2621,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -2661,7 +2639,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -2679,7 +2657,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -2697,43 +2675,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -2751,7 +2693,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2769,7 +2711,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2787,7 +2729,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -2805,7 +2747,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -2823,7 +2765,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -2841,7 +2783,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -2859,7 +2801,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -8234,6 +8176,10 @@
 		(uuid "ffc6af80-576f-43f0-a963-d94389ca52a5")
 	)
 	(no_connect
+		(at 107.95 144.78)
+		(uuid "30673d8b-a2f0-4de9-8d44-dbb072c5af3b")
+	)
+	(no_connect
 		(at 67.31 307.34)
 		(uuid "4630925d-364d-4b20-bfa9-e87804e86eff")
 	)
@@ -8244,6 +8190,10 @@
 	(no_connect
 		(at 195.58 101.6)
 		(uuid "6744d643-d46d-405d-bc24-c6e6721e2874")
+	)
+	(no_connect
+		(at 107.95 142.24)
+		(uuid "c49394cc-e920-48aa-8d37-9458b64bf0b5")
 	)
 	(no_connect
 		(at 227.33 124.46)
@@ -10041,16 +9991,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 240.03) (xy 425.45 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6741eff8-a7ce-4ec8-9c32-1793420d3d2d")
-	)
-	(wire
-		(pts
 			(xy 394.97 60.96) (xy 394.97 63.5)
 		)
 		(stroke
@@ -11001,16 +10941,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 240.03) (xy 367.03 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2d8c73-78c6-4e9b-b3f5-a7f41566246f")
-	)
-	(wire
-		(pts
 			(xy 210.82 317.5) (xy 210.82 306.07)
 		)
 		(stroke
@@ -11901,16 +11831,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 144.78) (xy 107.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d4359e-9b23-4365-9a3e-f037bd33ea37")
-	)
-	(wire
-		(pts
 			(xy 182.88 85.09) (xy 182.88 87.63)
 		)
 		(stroke
@@ -12058,16 +11978,6 @@
 			(type default)
 		)
 		(uuid "f5a29740-3fd6-48d5-b96f-7c64596802b0")
-	)
-	(wire
-		(pts
-			(xy 92.71 142.24) (xy 107.95 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62ba294-1bb1-4738-bb15-305ae405d45f")
 	)
 	(wire
 		(pts
@@ -12862,17 +12772,6 @@
 		)
 		(uuid "22d5e5d4-49de-46d1-a637-58dfc2222d95")
 	)
-	(label "AT1"
-		(at 370.84 240.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "23c0f0fe-345b-4f65-ad9f-648c9bd0fb04")
-	)
 	(label "PA11_USB_D-"
 		(at 495.3 55.88 180)
 		(fields_autoplaced yes)
@@ -13181,17 +13080,6 @@
 		)
 		(uuid "7a385220-c91e-471d-ad65-fb7934de2d01")
 	)
-	(label "AT0"
-		(at 425.45 240.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7bf62e08-4d02-4d8c-9c0c-5d8003977628")
-	)
 	(label "PB3_SWO"
 		(at 525.78 116.84 0)
 		(fields_autoplaced yes)
@@ -13378,17 +13266,6 @@
 			(justify right bottom)
 		)
 		(uuid "b606c5a3-fe2e-4032-aa9b-8ff1fb6087a0")
-	)
-	(label "AT1"
-		(at 96.52 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8888f87-a411-43f2-82d2-249eb473abaf")
 	)
 	(label "RF_ANT"
 		(at 360.68 50.8 180)
@@ -13632,17 +13509,6 @@
 		)
 		(uuid "fa55f12e-e2f0-4b9b-a84e-5716ea34418c")
 	)
-	(label "AT0"
-		(at 96.52 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd67fc31-9daa-49c2-acc9-45fc61ab5f8c")
-	)
 	(symbol
 		(lib_id "Device:C")
 		(at 113.03 200.66 0)
@@ -13670,7 +13536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.9952 204.47 0)
 			(effects
 				(font
@@ -14141,7 +14007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 55.5752 153.67 0)
 			(effects
 				(font
@@ -14276,7 +14142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 192.0748 198.12 0)
 			(effects
 				(font
@@ -14625,7 +14491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 112.0648 184.15 0)
 			(effects
 				(font
@@ -14904,7 +14770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 141.9352 377.19 0)
 			(effects
 				(font
@@ -15747,7 +15613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 515.62 114.3 0)
 			(effects
 				(font
@@ -15969,7 +15835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 309.88 0)
 			(effects
 				(font
@@ -16170,7 +16036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 362.9152 113.03 0)
 			(effects
 				(font
@@ -16307,7 +16173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 131.7752 83.82 0)
 			(effects
 				(font
@@ -16603,7 +16469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 204.7748 198.12 0)
 			(effects
 				(font
@@ -17291,7 +17157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 183.8452 378.46 0)
 			(effects
 				(font
@@ -17970,7 +17836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 203.2 131.7752 0)
 			(effects
 				(font
@@ -18040,7 +17906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 56.1848 111.76 0)
 			(effects
 				(font
@@ -18312,7 +18178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 159.7152 101.6 0)
 			(effects
 				(font
@@ -19049,7 +18915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 85.3948 113.03 0)
 			(effects
 				(font
@@ -19086,109 +18952,6 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
-		(at 393.7 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cfd6c68-780f-4bb8-ae23-ee63ded3c0dc")
-		(property "Reference" "J16"
-			(at 395.224 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pin_Header"
-			(at 394.97 243.332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
-			(at 393.7 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 393.7 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 393.7 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "4fbc205f-fdc0-4af3-bafd-97752fa3c6b2")
-		)
-		(pin "10"
-			(uuid "d3e3c55f-3fb2-43a4-9d13-d0f440df403f")
-		)
-		(pin "11"
-			(uuid "1d73a41e-d840-4554-b78b-4599fd9f392e")
-		)
-		(pin "1"
-			(uuid "30c60b4b-732f-4054-8c20-ec8bab87638a")
-		)
-		(pin "13"
-			(uuid "968722df-7524-4023-b13a-8d5b0b0eafdd")
-		)
-		(pin "14"
-			(uuid "f0cb3286-9c84-45e9-92fb-d7426aa7fc82")
-		)
-		(pin "2"
-			(uuid "55c54708-218f-4da2-af23-c5c1426c0316")
-		)
-		(pin "3"
-			(uuid "25029877-5813-4b3e-99e4-ea4211028a75")
-		)
-		(pin "4"
-			(uuid "6f640dc2-c4c5-42f1-86e7-726f72b5aafe")
-		)
-		(pin "5"
-			(uuid "d0923d9a-24ff-4ae2-8a3d-e3da1510dbd2")
-		)
-		(pin "6"
-			(uuid "7ef7dbd9-afb7-4f34-9a93-5ca0ef5c3732")
-		)
-		(pin "7"
-			(uuid "0c63b823-b70a-4773-a314-04595ee0ced1")
-		)
-		(pin "8"
-			(uuid "3d033e2f-af98-4799-aa65-4d474dc8272f")
-		)
-		(pin "9"
-			(uuid "f3df6e76-c370-4591-a14f-6bdb18c3e7f0")
-		)
-		(instances
-			(project ""
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -19295,7 +19058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 206.7052 160.02 0)
 			(effects
 				(font
@@ -19632,7 +19395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.3648 184.15 0)
 			(effects
 				(font
@@ -20349,7 +20112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 72.6948 113.03 0)
 			(effects
 				(font
@@ -20418,7 +20181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 183.8452 95.25 0)
 			(effects
 				(font
@@ -21623,7 +21386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 247.3452 313.69 0)
 			(effects
 				(font
@@ -22142,6 +21905,103 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 393.7 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db33f6f9-e846-40be-bd6c-a58ef9a61398")
+		(property "Reference" "J12"
+			(at 394.716 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin_Header"
+			(at 395.478 240.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+			(at 393.7 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 393.7 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "46e5eede-c822-48df-9eb8-ffbda0719778")
+		)
+		(pin "8"
+			(uuid "c94c4a76-9f20-439e-8c62-919da971c2c0")
+		)
+		(pin "10"
+			(uuid "a00923e0-23bd-4b60-916b-c3e820c55874")
+		)
+		(pin "6"
+			(uuid "6146c958-5aef-4455-be03-d89bdc078576")
+		)
+		(pin "1"
+			(uuid "637fde41-8a9b-421d-8d18-f99657e05d20")
+		)
+		(pin "12"
+			(uuid "f8b65b99-a638-45ba-9f91-5e83ad30b85d")
+		)
+		(pin "4"
+			(uuid "6f594cd0-618f-4b52-97af-9efb2ceb6937")
+		)
+		(pin "2"
+			(uuid "274a44e6-758b-4ae4-af12-4c7f0220e413")
+		)
+		(pin "9"
+			(uuid "3afe4350-0687-4901-9a21-ca399b1e3759")
+		)
+		(pin "5"
+			(uuid "11227106-16ba-4e30-9e75-9cce72163bc2")
+		)
+		(pin "7"
+			(uuid "ef867d93-8fa7-4f93-8710-5bcfec5298c2")
+		)
+		(pin "11"
+			(uuid "e42c5d4c-d209-40c6-93b4-e43c26667a1b")
+		)
+		(instances
+			(project ""
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968"
+					(reference "J12")
 					(unit 1)
 				)
 			)

@@ -8000,12 +8000,6 @@
 		(uuid "7572316d-b083-4ff8-80e0-8bb3b45b297d")
 	)
 	(junction
-		(at 204.47 317.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76403471-f0df-4d8a-add3-be5070f01570")
-	)
-	(junction
 		(at 238.76 303.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8168,6 +8162,12 @@
 		(uuid "ddd2c3b8-35ec-4e4f-9ceb-5eb2d94a59a1")
 	)
 	(junction
+		(at 199.39 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0d3e85e-2524-466c-b34d-c0dbd3897155")
+	)
+	(junction
 		(at 86.36 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8242,8 +8242,8 @@
 		(uuid "30673d8b-a2f0-4de9-8d44-dbb072c5af3b")
 	)
 	(no_connect
-		(at 199.39 311.15)
-		(uuid "5cff0a59-55f6-41ac-8220-b05d08866cfa")
+		(at 204.47 311.15)
+		(uuid "490b7a06-627e-482a-9e93-dfbe4cc5c7d1")
 	)
 	(no_connect
 		(at 195.58 101.6)
@@ -8790,6 +8790,16 @@
 			(type default)
 		)
 		(uuid "22f60ff0-0d6b-49b7-ab9b-975cf479cf33")
+	)
+	(wire
+		(pts
+			(xy 199.39 317.5) (xy 210.82 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23433813-18b6-4e70-b161-d159b1acd799")
 	)
 	(wire
 		(pts
@@ -10103,7 +10113,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 317.5) (xy 204.47 317.5)
+			(xy 193.04 317.5) (xy 199.39 317.5)
 		)
 		(stroke
 			(width 0)
@@ -10930,16 +10940,6 @@
 			(type default)
 		)
 		(uuid "a879c391-735d-43ec-9a55-b990b9950382")
-	)
-	(wire
-		(pts
-			(xy 204.47 311.15) (xy 204.47 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aabc6fab-fa13-452f-aead-b0606181fefe")
 	)
 	(wire
 		(pts
@@ -12073,13 +12073,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 317.5) (xy 210.82 317.5)
+			(xy 199.39 311.15) (xy 199.39 317.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faf79471-52ad-4848-ae63-57e31ebd63b2")
+		(uuid "fc238bb0-1c4b-42a1-86cd-9aef3091e3d7")
 	)
 	(wire
 		(pts
@@ -12451,9 +12451,9 @@
 		)
 		(uuid "6fc29a27-c1ff-409b-aa92-40a807bf71cf")
 	)
-	(text "Average Current 8.8 mA (Estimated from report)\n\n1. Programming - SW is inteneded but all pins will be exposed \nfor possible JTAG interface\n2. LDO is intended to be used with USB VBUS power supply\n   (When running the device through USB power)\n\n4u7F Capacitor Placement Strategy:\nNear the Most Critical VDD Pin\nIf one VDD pin powers the core logic (e.g., MCU core supply), place \nthe 4.7µF capacitor closest to that pin. This ensures stability where power \ndemand is highest. At a Central Power Distribution Point\nIf all VDD pins are connected to a common power plane, place the 4.7µF \ncapacitor near the entry point of VDD to the PCB or close to where power is \ndistributed to all VDD pins.\nThis helps smooth out power fluctuations before it reaches different ICs.\nComplement with Smaller Capacitors (0.1µF)\nPlace 0.1µF capacitors close to each VDD pin for high-frequency noise filtering.\nThe 4.7µF capacitor handles bulk power stabilization, while 0.1µF capacitors \nhandle high-frequency noise.\nGeneral Rule:\nIf in doubt, place the 4.7µF capacitor near the largest power consumer (MCU, RF module, etc.).\n\nUsing external oscilator as LSE the PC15-OSC32_OUT can be used as a GPIO\n\nVREF+ pin is not available on all packages, when not available it is internally bonded to\nVDDA. When the VREF+ is double-bonded with VDDA in a package, the internal\nvoltage reference buffer is not available and must be kept disabled (refer to the\ndatasheet for pinout descriptions).\n\nOn the STM32WB55CGU6, the AT0 (Alternate Test 0) pin is typically used for factory\ntesting and internal debugging by STMicroelectronics. It is not intended for user \napplications and generally should be left unconnected unless specified otherwise in \nthe reference manual or datasheet."
+	(text "Average Current 8.8 mA (Estimated from report)\n\n1. Programming - SW is inteneded but all pins will be exposed \nfor possible JTAG interface\n2. LDO is intended to be used with USB VBUS power supply\n   (When running the device through USB power)\n\n4u7F Capacitor Placement Strategy:\nNear the Most Critical VDD Pin\nIf one VDD pin powers the core logic (e.g., MCU core supply), place \nthe 4.7µF capacitor closest to that pin. This ensures stability where power \ndemand is highest. At a Central Power Distribution Point\nIf all VDD pins are connected to a common power plane, place the 4.7µF \ncapacitor near the entry point of VDD to the PCB or close to where power is \ndistributed to all VDD pins.\nThis helps smooth out power fluctuations before it reaches different ICs.\nComplement with Smaller Capacitors (0.1µF)\nPlace 0.1µF capacitors close to each VDD pin for high-frequency noise filtering.\nThe 4.7µF capacitor handles bulk power stabilization, while 0.1µF capacitors \nhandle high-frequency noise.\nGeneral Rule:\nIf in doubt, place the 4.7µF capacitor near the largest power consumer (MCU, RF module, etc.).\n\nUsing external oscilator as LSE the PC15-OSC32_OUT can be used as a GPIO\n\nVREF+ pin is not available on all packages, when not available it is internally bonded to\nVDDA. When the VREF+ is double-bonded with VDDA in a package, the internal\nvoltage reference buffer is not available and must be kept disabled (refer to the\ndatasheet for pinout descriptions).\n\nOn the STM32WB55CGU6, the AT0 (Alternate Test 0) pin is typically used for factory\ntesting and internal debugging by STMicroelectronics. It is not intended for user \napplications and generally should be left unconnected unless specified otherwise in \nthe reference manual or datasheet.\n\nUSB Differential Pair\nCalculated on JLCPB website\nbased on 90 Ohm, 0.25mm spacing, 9.35mm trace to copper\n0.1669 mmm track width"
 		(exclude_from_sim no)
-		(at 479.425 194.945 0)
+		(at 479.552 198.882 0)
 		(effects
 			(font
 				(size 1 1)
@@ -12641,8 +12641,8 @@
 		)
 		(uuid "049b00b9-d2dc-4c63-8cba-02574c95f518")
 	)
-	(label "PA12_USB_D+"
-		(at 115.57 104.14 90)
+	(label "USB_D+"
+		(at 115.57 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12651,6 +12651,17 @@
 			(justify left bottom)
 		)
 		(uuid "07b19e64-c77e-4987-94f8-5750f3aeb075")
+	)
+	(label "USB_D+"
+		(at 481.33 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c1b2189-941a-417a-ac2c-879950eb6f99")
 	)
 	(label "PA0"
 		(at 365.76 233.68 0)
@@ -12751,17 +12762,6 @@
 		)
 		(uuid "210e38e7-984f-4def-a8e1-f91c87941ed5")
 	)
-	(label "PA11_USB_D-"
-		(at 495.3 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2579b877-cb3c-4143-8cdf-6d8baad9cdba")
-	)
 	(label "PB3_SWO"
 		(at 128.27 100.33 90)
 		(fields_autoplaced yes)
@@ -12849,17 +12849,6 @@
 			(justify left bottom)
 		)
 		(uuid "3aa31998-9030-406c-bd1f-6df3f04ca2d7")
-	)
-	(label "PA12_USB_D+"
-		(at 495.3 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ae2b5e4-265b-4925-a080-0e1de833cfcb")
 	)
 	(label "VBUS"
 		(at 45.72 297.18 0)
@@ -13202,6 +13191,17 @@
 		)
 		(uuid "9a585af1-24ad-460b-a65e-8c8a3c67f281")
 	)
+	(label "USB_D-"
+		(at 481.33 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a30087cc-bde5-4759-93cb-712ad5305108")
+	)
 	(label "PA13_SWDIO"
 		(at 118.11 102.87 90)
 		(fields_autoplaced yes)
@@ -13367,8 +13367,8 @@
 		)
 		(uuid "d9a35f8c-a088-4384-8551-e92ab1629383")
 	)
-	(label "PA11_USB_D-"
-		(at 113.03 104.14 90)
+	(label "USB_D-"
+		(at 113.03 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19100,7 +19100,7 @@
 		(dnp no)
 		(uuid "9d1b9b30-0440-488e-aa53-ade2730c0265")
 		(property "Reference" "C36"
-			(at 203.962 161.798 0)
+			(at 203.454 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)

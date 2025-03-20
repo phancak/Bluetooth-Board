@@ -7844,6 +7844,12 @@
 		(uuid "0ddb2a72-5b92-450c-8946-68aa137c9c75")
 	)
 	(junction
+		(at 67.31 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de7314f-a8cb-41d8-a6d1-7f525573c1f1")
+	)
+	(junction
 		(at 375.92 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8084,12 +8090,6 @@
 		(uuid "ba73574a-bbf3-499e-8a83-9b30608a4f1d")
 	)
 	(junction
-		(at 72.39 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bab4bb2a-e6b9-4a6d-943f-9262f71defc8")
-	)
-	(junction
 		(at 213.36 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8234,12 +8234,12 @@
 		(uuid "ffc6af80-576f-43f0-a963-d94389ca52a5")
 	)
 	(no_connect
-		(at 107.95 144.78)
-		(uuid "30673d8b-a2f0-4de9-8d44-dbb072c5af3b")
+		(at 72.39 307.34)
+		(uuid "2a950517-11f9-48dc-9f02-c938e2746e6d")
 	)
 	(no_connect
-		(at 67.31 307.34)
-		(uuid "4630925d-364d-4b20-bfa9-e87804e86eff")
+		(at 107.95 144.78)
+		(uuid "30673d8b-a2f0-4de9-8d44-dbb072c5af3b")
 	)
 	(no_connect
 		(at 199.39 311.15)
@@ -9963,7 +9963,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 313.69) (xy 72.39 313.69)
+			(xy 60.96 313.69) (xy 67.31 313.69)
 		)
 		(stroke
 			(width 0)
@@ -10233,6 +10233,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 313.69) (xy 78.74 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777c156a-33f3-4b19-bef9-1c225517faf5")
+	)
+	(wire
+		(pts
 			(xy 369.57 116.84) (xy 369.57 125.73)
 		)
 		(stroke
@@ -10300,16 +10310,6 @@
 			(type default)
 		)
 		(uuid "7a8db08e-004c-4803-98d0-11173e53c82e")
-	)
-	(wire
-		(pts
-			(xy 72.39 307.34) (xy 72.39 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aaac920-605b-42bb-b837-2f6c67824464")
 	)
 	(wire
 		(pts
@@ -11073,16 +11073,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 313.69) (xy 78.74 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19a6c05-fb63-4e03-bbe8-cbbbbf05117f")
-	)
-	(wire
-		(pts
 			(xy 204.47 292.1) (xy 213.36 292.1)
 		)
 		(stroke
@@ -11430,6 +11420,16 @@
 			(type default)
 		)
 		(uuid "c3dd3aab-bc6d-4f40-9008-c11a38cb5d32")
+	)
+	(wire
+		(pts
+			(xy 67.31 307.34) (xy 67.31 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c456ef13-d86d-4466-9305-508e1daf8079")
 	)
 	(wire
 		(pts
@@ -12698,6 +12698,7 @@
 	)
 	(label "PB5"
 		(at 133.35 95.25 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12807,6 +12808,7 @@
 	)
 	(label "PA1"
 		(at 165.1 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12905,6 +12907,7 @@
 	)
 	(label "PA10"
 		(at 100.33 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13111,17 +13114,6 @@
 		)
 		(uuid "824c5bad-709f-4145-a040-7da24e8ebb20")
 	)
-	(label "PC15-OSC32_OUT"
-		(at 429.26 236.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83c630b7-57b6-4cd6-9330-cc750bf83ace")
-	)
 	(label "PB3_SWO"
 		(at 525.78 116.84 0)
 		(fields_autoplaced yes)
@@ -13267,6 +13259,7 @@
 	)
 	(label "PA9"
 		(at 130.81 180.34 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13321,6 +13314,7 @@
 	)
 	(label "PB4"
 		(at 130.81 95.25 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17799,6 +17793,73 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 429.26 236.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80a8bce9-31af-4d7e-b1f0-1877e17c0fa9")
+		(property "Reference" "#PWR01"
+			(at 435.61 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 432.308 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 429.26 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4168dd6e-9045-48e4-8cdc-9e3fc1fb4fd0")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

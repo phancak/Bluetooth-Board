@@ -50,5 +50,3 @@ This expansion board provides **I2C, USART, and SPI interfaces**, making it a ve
 This project is open-source under the **MIT License**.  
 
 ---
-
-This description ensures **professionalism** and **technical depth**, making it impressive for potential employers. Would you like to add **performance benchmarks** or **test results**? 🚀

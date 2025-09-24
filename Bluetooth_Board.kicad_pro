@@ -803,6 +803,18 @@
     [
       "05989bb3-969e-4aaa-b344-5f0e2d5af968",
       "Root"
+    ],
+    [
+      "464223bd-828e-49c3-9bc8-b6e1bd32cff7",
+      "STM32WB55CGU6"
+    ],
+    [
+      "36e69f24-2421-4b22-97a3-2ccc77cc83b8",
+      "Power_Management"
+    ],
+    [
+      "abc98c8d-e19e-4e25-aa44-7b8f1ef72b8d",
+      "Interfaces"
     ]
   ],
   "text_variables": {}

@@ -516,152 +516,6 @@
 				)
 			)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -3286,12 +3140,6 @@
 		(uuid "090ffca7-a312-4a59-8c40-ad692d688bd2")
 	)
 	(junction
-		(at 193.04 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11c8ab50-42db-4db4-9405-68c92ae6a0df")
-	)
-	(junction
 		(at 215.9 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3316,18 +3164,6 @@
 		(uuid "2b735b3c-6f41-4037-b5ab-d317d1d79bd1")
 	)
 	(junction
-		(at 233.68 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3408e0b2-51c8-4f02-af56-867fb5e9acc6")
-	)
-	(junction
-		(at 180.34 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "382b96f9-e320-45d3-aa14-4cdef7f6cca9")
-	)
-	(junction
 		(at 41.91 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3350,12 +3186,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b9003c0-1106-46ae-8982-cad546067efb")
-	)
-	(junction
-		(at 193.04 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cad17d1-d08f-4378-bafa-63e15f5ce53b")
 	)
 	(junction
 		(at 87.63 133.35)
@@ -3386,12 +3216,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2eacce3-8213-478c-95f2-574d0ff0bfbb")
-	)
-	(junction
-		(at 185.42 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7885512-222f-4e86-9065-bb25774643e3")
 	)
 	(junction
 		(at 146.05 49.53)
@@ -3473,26 +3297,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 160.02) (xy 193.04 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025d7083-f691-410e-9289-2d0fbed5a66d")
-	)
-	(wire
-		(pts
-			(xy 193.04 160.02) (xy 193.04 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039a5a09-fced-489e-8f03-a4a2b5f44636")
-	)
-	(wire
-		(pts
 			(xy 110.49 44.45) (xy 110.49 62.23)
 		)
 		(stroke
@@ -3563,16 +3367,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 144.78) (xy 180.34 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1394500a-9374-4b4f-99e1-bcd9641018a0")
-	)
-	(wire
-		(pts
 			(xy 125.73 44.45) (xy 125.73 62.23)
 		)
 		(stroke
@@ -3613,16 +3407,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 149.86) (xy 180.34 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c7840fd-4774-4236-9fbc-e7bf9400ca9f")
-	)
-	(wire
-		(pts
 			(xy 73.66 85.09) (xy 95.25 85.09)
 		)
 		(stroke
@@ -3650,16 +3434,6 @@
 			(type default)
 		)
 		(uuid "21af45a0-9fb5-45fc-8aaf-5876c39c4fc2")
-	)
-	(wire
-		(pts
-			(xy 193.04 147.32) (xy 193.04 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c6e3d9-e22c-4b48-bd8c-a5570154ddf8")
 	)
 	(wire
 		(pts
@@ -3700,16 +3474,6 @@
 			(type default)
 		)
 		(uuid "299f1034-a45e-49da-acc2-4639a80c8ab0")
-	)
-	(wire
-		(pts
-			(xy 209.55 147.32) (xy 233.68 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c22cade-3a25-4788-a0bd-10578b587c06")
 	)
 	(wire
 		(pts
@@ -4063,16 +3827,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 157.48) (xy 233.68 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6af4a13f-8071-447a-a163-1311ae5711f6")
-	)
-	(wire
-		(pts
 			(xy 130.81 21.59) (xy 130.81 24.13)
 		)
 		(stroke
@@ -4090,16 +3844,6 @@
 			(type default)
 		)
 		(uuid "7006e0c2-adcb-4f8b-899f-901f6cf74a4c")
-	)
-	(wire
-		(pts
-			(xy 193.04 161.29) (xy 193.04 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707318c1-4e44-4d2d-888d-aa147bfc8390")
 	)
 	(wire
 		(pts
@@ -4200,6 +3944,16 @@
 			(type default)
 		)
 		(uuid "7dc77242-21e6-41f3-aa00-c4679f99e322")
+	)
+	(wire
+		(pts
+			(xy 180.34 146.05) (xy 180.34 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e58b0b4-557f-4f67-9cb3-a6532e9e5065")
 	)
 	(wire
 		(pts
@@ -4393,16 +4147,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 147.32) (xy 233.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9afa6c68-17f2-4666-92d8-8bd0c4367701")
-	)
-	(wire
-		(pts
 			(xy 215.9 132.08) (xy 215.9 130.81)
 		)
 		(stroke
@@ -4560,16 +4304,6 @@
 			(type default)
 		)
 		(uuid "ab99799b-5979-412f-bfd4-bff6c3e8ba4c")
-	)
-	(wire
-		(pts
-			(xy 193.04 147.32) (xy 185.42 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb40763-98cb-4fda-bf6d-d623cc62f777")
 	)
 	(wire
 		(pts
@@ -4773,16 +4507,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 147.32) (xy 180.34 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c54b886d-9e56-48ed-9b0c-cd2049eb61b2")
-	)
-	(wire
-		(pts
 			(xy 237.49 95.25) (xy 237.49 97.79)
 		)
 		(stroke
@@ -4820,16 +4544,6 @@
 			(type default)
 		)
 		(uuid "c97a682f-19d1-4b14-89d6-41fe6bdf7591")
-	)
-	(wire
-		(pts
-			(xy 233.68 147.32) (xy 233.68 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9e3f966-6f95-4ff6-a8e4-91bef03edb74")
 	)
 	(wire
 		(pts
@@ -5003,16 +4717,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 147.32) (xy 193.04 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb79dee7-550f-4f9a-87ec-185965119a0f")
-	)
-	(wire
-		(pts
 			(xy 87.63 77.47) (xy 95.25 77.47)
 		)
 		(stroke
@@ -5160,16 +4864,6 @@
 			(type default)
 		)
 		(uuid "fb512ca0-a6fb-48c6-8acb-b87406391d98")
-	)
-	(wire
-		(pts
-			(xy 180.34 157.48) (xy 180.34 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda4f077-af7a-4ffd-97cd-10ecb54d2933")
 	)
 	(text "PIN1 NC = Oscillation"
 		(exclude_from_sim no)
@@ -6402,74 +6096,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 161.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20f8f350-c4c5-4b3a-a47c-474450bb6d03")
-		(property "Reference" "#PWR055"
-			(at 193.04 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 164.592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2143b6d6-57e4-4894-ba84-9680992354ff")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 87.63 147.32 0)
 		(mirror y)
 		(unit 1)
@@ -7409,73 +7035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 233.68 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e0ec24d-0200-461e-9b1a-f52d828d2fef")
-		(property "Reference" "#PWR068"
-			(at 233.68 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 231.648 140.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43a803c2-bb65-4455-8e1c-0ece3f1790e0")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 57.15 73.66 270)
 		(mirror x)
@@ -7942,35 +7501,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 233.68 153.67 0)
+		(lib_id "power:+3.3VA")
+		(at 180.34 146.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4fe190fb-7749-4841-8ff5-b40a0fd7e05c")
-		(property "Reference" "C20"
-			(at 237.998 150.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 237.998 156.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 232.7148 157.48 0)
+		(uuid "4fec7c9f-a9a9-445e-928a-82fa28e9212a")
+		(property "Reference" "#PWR019"
+			(at 180.34 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,8 +7519,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 233.68 153.67 0)
+		(property "Value" "+3.3VA"
+			(at 175.514 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7987,8 +7536,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 233.68 153.67 0)
+		(property "Datasheet" ""
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 180.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,15 +7555,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "363ba01e-7392-4d19-b30c-c6fe77b52e33")
-		)
-		(pin "2"
-			(uuid "f35b683c-8d82-4c65-a3db-532e9de81f7c")
+			(uuid "1bab243b-f0fb-48a5-b0b4-cb49363b0b8f")
 		)
 		(instances
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "C20")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9156,73 +8711,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 185.42 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbbe9eb1-f92d-4d2d-a59c-314e85726039")
-		(property "Reference" "#FLG03"
-			(at 185.42 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 185.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 185.42 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c01e5fd-99df-46a6-8654-4d8d9a95b156")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 73.66 67.31 0)
 		(mirror y)
@@ -9427,73 +8915,6 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 205.74 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf856647-67d9-4eec-9413-772122d7c2e4")
-		(property "Reference" "FB2"
-			(at 210.312 145.796 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM21PG601SN1D_0805"
-			(at 215.392 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 205.74 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 205.74 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7d64046-6bde-46ee-bc6e-fdd8d511f8bf")
-		)
-		(pin "2"
-			(uuid "6955d8b3-58fb-4dff-991d-60b478c0d4d9")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -9968,280 +9389,6 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 193.04 153.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5e7e8cb-4727-44f9-9340-b2da1041bde0")
-		(property "Reference" "C18"
-			(at 197.358 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 198.374 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 192.0748 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a877438-22a6-45ee-b79e-3b666dbe8312")
-		)
-		(pin "2"
-			(uuid "d72c0d2c-8d33-4ce2-9cc2-0ad807d814bc")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 180.34 153.67 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7911b65-d2df-4cd0-83ce-299dbf82e44a")
-		(property "Reference" "C15"
-			(at 184.404 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 183.134 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 179.3748 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 180.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "599bad9b-2b9e-4b77-aaa6-f2ae74fadda5")
-		)
-		(pin "2"
-			(uuid "3ce8c127-664c-4899-bfea-ba7a9988e71b")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 160.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc6b5bdd-6906-4312-9df5-e79c5a892203")
-		(property "Reference" "#PWR027"
-			(at 233.68 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 163.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abe9ce40-187e-4beb-be2a-42f47252d290")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 180.34 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc87431e-fd3d-4731-a248-9e9e9493b221")
-		(property "Reference" "#PWR054"
-			(at 180.34 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 182.626 143.256 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 180.34 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec97e787-499b-4a4d-8d90-c826b03ad529")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)

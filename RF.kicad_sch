@@ -423,7 +423,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 13.97 180)
 					(length 5.08)
 					(name "VBUS"
@@ -513,7 +513,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 11.43 180)
 					(length 5.08)
 					(name "VBUS"
@@ -567,7 +567,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 6.35 180)
 					(length 5.08)
 					(name "VBUS"
@@ -657,7 +657,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 8.89 180)
 					(length 5.08)
 					(name "VBUS"
@@ -2763,6 +2763,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 224.79 130.81)
@@ -2799,6 +2895,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21ba1dd1-190b-4b8c-8052-7afd1ea922e4")
+	)
+	(junction
+		(at 86.36 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27e31f56-6ddc-4bb7-90bf-6aa2687cb991")
 	)
 	(junction
 		(at 49.53 172.72)
@@ -3070,7 +3172,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 55.88) (xy 86.36 58.42)
+			(xy 86.36 55.88) (xy 86.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3830,6 +3932,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 57.15) (xy 86.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd89c26f-5552-42ee-9c09-fff562a521f3")
+	)
+	(wire
+		(pts
 			(xy 236.22 161.29) (xy 233.68 161.29)
 		)
 		(stroke
@@ -4051,7 +4163,7 @@
 		)
 		(uuid "9d8b4512-c1b0-4029-b9f2-899ee306e646")
 	)
-	(label "USB_VBUS+"
+	(label "USB_VBUS_P+"
 		(at 196.85 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5351,6 +5463,73 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/1ac22050-21cc-40c3-9af0-4a5defc56765"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2319062-48f1-4cf3-8406-48e5d1e23949")
+		(property "Reference" "#FLG03"
+			(at 84.455 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9309b4f0-ed74-4b1b-98b5-92a4f674effb")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/1ac22050-21cc-40c3-9af0-4a5defc56765"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

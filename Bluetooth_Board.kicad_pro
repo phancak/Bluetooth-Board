@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -194,6 +194,7 @@
         0.25,
         0.3,
         0.5,
+        0.6,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -500,8 +501,25 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 194, 194)",
         "schematic_color": "rgb(194, 194, 194)",
+        "track_width": 0.15,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.15,
         "via_diameter": 0.7,
         "via_drill": 0.3,
@@ -550,8 +568,25 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "QSPI",
+        "pcb_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 255, 0)",
         "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.15,
         "via_diameter": 0.7,
@@ -584,6 +619,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "SPI",
+        "pcb_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgb(0, 132, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SWD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 255)",
@@ -602,7 +654,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.16736,
         "via_diameter": 0.7,
@@ -617,12 +669,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "RF",
-        "pattern": "*RF1*"
-      },
-      {
         "netclass": "USB",
-        "pattern": "*USB*"
+        "pattern": "*USB_*"
       },
       {
         "netclass": "GND",
@@ -662,7 +710,7 @@
       },
       {
         "netclass": "SMPS",
-        "pattern": "/SMPS*"
+        "pattern": "*SMPS*"
       },
       {
         "netclass": "PWR5V",
@@ -679,6 +727,22 @@
       {
         "netclass": "RF",
         "pattern": "*RF_*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*I2C*"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "*QSPI*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*RF1*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*/SPI*"
       }
     ]
   },

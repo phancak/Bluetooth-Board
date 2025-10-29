@@ -6787,7 +6787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Personal_Project:PinHeader_2x03_P2.54mm_Horizontal_Court"
 			(at 233.68 123.19 0)
 			(effects
 				(font
@@ -7386,7 +7386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Personal_Project:PinHeader_2x03_P2.54mm_Horizontal_Court"
 			(at 81.28 118.11 0)
 			(effects
 				(font
@@ -7533,7 +7533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
 			(at 214.63 48.26 0)
 			(effects
 				(font

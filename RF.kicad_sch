@@ -2945,12 +2945,6 @@
 		(uuid "80d37b5e-0055-4fa3-8152-4107616f2f57")
 	)
 	(junction
-		(at 219.71 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8857a0f8-93dc-4716-8f82-11a68b9be715")
-	)
-	(junction
 		(at 110.49 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2966,7 +2960,7 @@
 		(at 219.71 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "992334da-72aa-469f-864b-a28dcd44927f")
+		(uuid "966db60b-04ba-40ff-a463-560c9f8ab098")
 	)
 	(junction
 		(at 200.66 161.29)
@@ -3009,6 +3003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6ce21c8-847b-4e12-a57a-119f4a75b85b")
+	)
+	(junction
+		(at 219.71 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4af04b5-d0d6-436a-ac22-0313a8f2b0b6")
 	)
 	(junction
 		(at 233.68 161.29)
@@ -3182,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 153.67) (xy 177.8 128.27)
+			(xy 177.8 123.19) (xy 177.8 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3239,6 +3239,16 @@
 			(type default)
 		)
 		(uuid "2a129104-0790-4462-b54a-b28233eaab06")
+	)
+	(wire
+		(pts
+			(xy 173.99 125.73) (xy 180.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d630415-5638-413f-82bb-1ae238f1a6f6")
 	)
 	(wire
 		(pts
@@ -3342,13 +3352,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 128.27) (xy 219.71 128.27)
+			(xy 190.5 123.19) (xy 194.31 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dd6d1ac-fa17-4aad-9494-f782a5e86605")
+		(uuid "4f17c533-5acb-47bc-8dd8-9bd5d95c7fd0")
 	)
 	(wire
 		(pts
@@ -3462,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 133.35) (xy 185.42 161.29)
+			(xy 185.42 130.81) (xy 185.42 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3522,13 +3532,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.33) (xy 185.42 120.65)
+			(xy 185.42 100.33) (xy 185.42 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79f7141f-3fbd-424e-a0ac-e7e59be7e527")
+	)
+	(wire
+		(pts
+			(xy 190.5 125.73) (xy 219.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8eff80-bb9c-415b-896e-34f713f3297b")
 	)
 	(wire
 		(pts
@@ -3622,6 +3642,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 123.19) (xy 177.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3d2a4e-54ac-4328-91f5-0e33b7d315c6")
+	)
+	(wire
+		(pts
 			(xy 224.79 102.87) (xy 219.71 102.87)
 		)
 		(stroke
@@ -3692,13 +3722,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 125.73) (xy 180.34 125.73)
+			(xy 194.31 123.19) (xy 194.31 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1ca657f-e8e2-452e-8710-5f42225bdedf")
+		(uuid "b0c34a92-6c69-43f6-a33d-0cd36cdccdb2")
 	)
 	(wire
 		(pts
@@ -3749,16 +3779,6 @@
 			(type default)
 		)
 		(uuid "bc096f68-121e-4628-90d1-c3737b718bb3")
-	)
-	(wire
-		(pts
-			(xy 190.5 125.73) (xy 219.71 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc8ea7f7-6322-41de-ba34-49165c52d964")
 	)
 	(wire
 		(pts
@@ -3872,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 128.27) (xy 219.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf116905-376c-427a-9a60-ca83853c143e")
+	)
+	(wire
+		(pts
 			(xy 67.31 172.72) (xy 58.42 172.72)
 		)
 		(stroke
@@ -3899,16 +3929,6 @@
 			(type default)
 		)
 		(uuid "d3919c11-84de-446e-af29-762329fe1edc")
-	)
-	(wire
-		(pts
-			(xy 177.8 128.27) (xy 180.34 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d812d7-11dd-4c7d-aaf8-6fac63e43674")
 	)
 	(wire
 		(pts
@@ -4119,7 +4139,7 @@
 		)
 		(uuid "e58de2d6-3bee-494f-8abb-f4dc2a7046da")
 	)
-	(label "USB_D2+_DI"
+	(label "USB_DI_D2+"
 		(at 118.11 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4174,7 +4194,7 @@
 		)
 		(uuid "ab91ae46-f0ce-46c7-80f0-573b12431792")
 	)
-	(label "USB_D2-_DI"
+	(label "USB_DI_D2-"
 		(at 118.11 151.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4207,7 +4227,7 @@
 		)
 		(uuid "deddd9ab-3cb6-4334-90ee-d2476bfa7f9d")
 	)
-	(hierarchical_label "USB_D2+_DI"
+	(hierarchical_label "USB_DI_D2+"
 		(shape bidirectional)
 		(at 118.11 153.67 180)
 		(fields_autoplaced yes)
@@ -4231,7 +4251,7 @@
 		)
 		(uuid "d7c7db90-261f-4f92-b1b0-08bfa01399ad")
 	)
-	(hierarchical_label "USB_D2-_DI"
+	(hierarchical_label "USB_DI_D2-"
 		(shape bidirectional)
 		(at 118.11 151.13 180)
 		(fields_autoplaced yes)
@@ -6131,7 +6151,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 185.42 125.73 0)
+		(at 185.42 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6139,7 +6159,7 @@
 		(dnp no)
 		(uuid "ebc6036d-692b-42ba-8cc1-c1b3bdded3ad")
 		(property "Reference" "U5"
-			(at 186.182 118.364 0)
+			(at 186.182 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6168,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 186.182 120.65 0)
+			(at 186.182 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6177,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 186.69 132.08 0)
+			(at 186.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6188,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 186.69 133.985 0)
+			(at 186.69 131.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6198,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 185.42 125.73 0)
+			(at 185.42 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

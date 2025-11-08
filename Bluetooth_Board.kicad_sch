@@ -396,7 +396,7 @@
 			)
 			(uuid "b35eb70f-eea5-44f8-911f-e9a609c45bb7")
 		)
-		(pin "USB_D2+_DI" bidirectional
+		(pin "USB_DI_D2+" bidirectional
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -404,9 +404,9 @@
 				)
 				(justify right)
 			)
-			(uuid "3ab6a4d3-7453-4409-9c9f-be29d3298df4")
+			(uuid "285b2ee4-f0b9-47f2-bfcd-0f2afe4e9f71")
 		)
-		(pin "USB_D2-_DI" bidirectional
+		(pin "USB_DI_D2-" bidirectional
 			(at 81.28 63.5 0)
 			(effects
 				(font
@@ -414,7 +414,7 @@
 				)
 				(justify right)
 			)
-			(uuid "dae73e08-ae7e-4057-9ea4-1d222002399e")
+			(uuid "c7715b5a-b855-4c50-a6e1-781baee2b1d1")
 		)
 		(instances
 			(project "Bluetooth_Board"

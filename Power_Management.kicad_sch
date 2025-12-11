@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "35831249-5c12-49b9-9889-5390b232c3f8")
 	(paper "USLetter")
+	(title_block
+		(title "STM32WB55RGVx Bleutooth Board")
+		(date "2024-11-22")
+		(rev "A")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G07"
 			(exclude_from_sim no)
@@ -2255,7 +2261,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "~{RST}"
@@ -4041,6 +4047,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 157.48 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3600a4fd-5599-4b29-ab70-4c6e4124af61")
+		(property "Reference" "#PWR015"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS+"
+			(at 162.052 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2edb10c4-89f9-4149-aac4-cf735547ddad")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/36e69f24-2421-4b22-97a3-2ccc77cc83b8"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Personal_Projects:Diode_BZX84C6V2-7-F")
 		(at 128.27 52.07 0)
 		(unit 1)
@@ -4918,71 +4989,6 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/36e69f24-2421-4b22-97a3-2ccc77cc83b8"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 157.48 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86f51600-36e4-4de5-ae89-fbee80a4cad7")
-		(property "Reference" "#PWR015"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "USB_VBUS+"
-			(at 164.592 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 157.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e58a0c31-eb2c-43cf-879d-d7ac0c220aae")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/36e69f24-2421-4b22-97a3-2ccc77cc83b8"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)

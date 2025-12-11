@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "0a737c60-67bc-4825-b588-bf5c25209230")
 	(paper "USLetter")
+	(title_block
+		(title "STM32WB55RGVx Bleutooth Board")
+		(date "2024-11-22")
+		(rev "A")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -4183,7 +4189,7 @@
 		)
 		(uuid "9d8b4512-c1b0-4029-b9f2-899ee306e646")
 	)
-	(label "USB_VBUS_P+"
+	(label "VBUS_P+"
 		(at 196.85 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4702,8 +4708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "USB_VBUS+"
-			(at 93.472 94.488 0)
+		(property "Value" "VBUS+"
+			(at 90.932 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)

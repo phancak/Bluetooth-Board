@@ -626,238 +626,6 @@
 				)
 			)
 		)
-		(symbol "Personal_Projects:ABM3B-32.000MHZ-10-R30-B1U-T"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 2.286 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ABM3B-32.000MHZ-10-R30-B1U-T"
-				(at 18.796 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Personal_Project:XTAL_ABM3B-32.000MHZ-10-R30-B1U-T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ABM3B-32.000MHZ-10-R30-B1U-T_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ABM3B-32.000MHZ-10-R30-B1U-T_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Personal_Projects:NAND_MX35LF2G24AD-Z4I"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1303,6 +1071,278 @@
 					(at 33.02 -2.54 180)
 					(length 2.54)
 					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 2.54)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Personal_Projects:Oscillator_ECS-TXO-32CSMV-320-AN-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "OS"
+				(at 15.748 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "Oscillator_ECS-TXO-32CSMV-320-AN-TR"
+				(at -2.794 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Personal_Project:Oscillator_ECSTXO32CSMV320ANTR"
+				(at 34.29 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-32CSMV.pdf"
+				(at 34.29 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 34.29 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "520-TXO32CSMV320ANTR"
+				(at 34.29 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-32CSMV-320-AN-TR?qs=i8QVZAFTkqSFD5tboM1KdA%3D%3D"
+				(at 34.29 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ECS"
+				(at 34.29 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ECS-TXO-32CSMV-320-AN-TR"
+				(at 34.29 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Oscillator_ECS-TXO-32CSMV-320-AN-TR_0_1"
+				(polyline
+					(pts
+						(xy 13.97 -1.27) (xy 12.7 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -1.27) (xy 14.605 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -2.54) (xy 14.605 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 -2.54) (xy 18.415 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.27) (xy 18.415 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.27) (xy 20.32 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 15.367 1.27)
+					(end 17.653 -3.81)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Oscillator_ECS-TXO-32CSMV-320-AN-TR_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 30.48 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 2.54)
+					(name "GND_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2816,6 +2856,12 @@
 		(uuid "2d5e8f4c-4f59-4f60-842d-3720d5d2b902")
 	)
 	(junction
+		(at 69.85 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a70486-4b2c-4944-b155-9625cc8af77f")
+	)
+	(junction
 		(at 41.91 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2864,10 +2910,10 @@
 		(uuid "aa45fdee-cd49-47ef-a7d1-1a28fa3d9412")
 	)
 	(junction
-		(at 74.93 121.92)
+		(at 26.67 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b07b18e2-b264-4942-b189-d68a3a832f99")
+		(uuid "c34c84e8-e869-42ce-bbe4-7c0d1309bd17")
 	)
 	(junction
 		(at 212.09 163.83)
@@ -2902,6 +2948,10 @@
 	(no_connect
 		(at 135.89 82.55)
 		(uuid "2b8c996e-85bd-417c-9fbd-e38f8c0e27c3")
+	)
+	(no_connect
+		(at 102.87 123.19)
+		(uuid "7eaff880-6ad8-4380-be79-0c5e808ce5f4")
 	)
 	(no_connect
 		(at 234.95 82.55)
@@ -3057,16 +3107,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 74.93 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a75e44e-7706-4593-88e0-19e4871e839b")
-	)
-	(wire
-		(pts
 			(xy 73.66 85.09) (xy 95.25 85.09)
 		)
 		(stroke
@@ -3087,6 +3127,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 121.92) (xy 22.86 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211b77c4-479a-4856-9a02-b8bda0d1cf13")
+	)
+	(wire
+		(pts
 			(xy 240.03 102.87) (xy 237.49 102.87)
 		)
 		(stroke
@@ -3097,23 +3147,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 123.19) (xy 102.87 125.73)
+			(xy 22.86 128.27) (xy 26.67 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21af45a0-9fb5-45fc-8aaf-5876c39c4fc2")
-	)
-	(wire
-		(pts
-			(xy 66.04 105.41) (xy 66.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230b4dc6-a990-4f70-986f-4d1863c0ec8a")
+		(uuid "217575cc-f7e6-4677-9e34-744ca795cd9d")
 	)
 	(wire
 		(pts
@@ -3154,6 +3194,16 @@
 			(type default)
 		)
 		(uuid "299f1034-a45e-49da-acc2-4639a80c8ab0")
+	)
+	(wire
+		(pts
+			(xy 74.93 105.41) (xy 74.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1d908b-6e00-41f7-9f0d-b9f6261a6525")
 	)
 	(wire
 		(pts
@@ -3227,6 +3277,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 128.27) (xy 26.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcce856-7ce2-4184-a856-f3fc298c2b9d")
+	)
+	(wire
+		(pts
 			(xy 100.33 44.45) (xy 100.33 62.23)
 		)
 		(stroke
@@ -3237,16 +3297,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 115.57) (xy 71.12 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f6f9a90-206f-436f-9b6f-1bd5b8adb420")
-	)
-	(wire
-		(pts
 			(xy 87.63 133.35) (xy 100.33 133.35)
 		)
 		(stroke
@@ -3254,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "3fe085eb-861e-4b20-9fc1-4ad9f1ba825a")
+	)
+	(wire
+		(pts
+			(xy 87.63 105.41) (xy 95.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433b5674-f215-4cb0-8be6-013f5b759ac2")
 	)
 	(wire
 		(pts
@@ -3347,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 135.89) (xy 69.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ab4192-ab65-4894-8df2-62793c81b688")
+	)
+	(wire
+		(pts
 			(xy 207.01 146.05) (xy 212.09 146.05)
 		)
 		(stroke
@@ -3354,16 +3424,6 @@
 			(type default)
 		)
 		(uuid "557682bb-d4ca-4bff-8d69-706621049247")
-	)
-	(wire
-		(pts
-			(xy 93.98 107.95) (xy 81.28 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "565faa3d-bcca-4e1d-9bdd-3aca50175119")
 	)
 	(wire
 		(pts
@@ -3394,6 +3454,26 @@
 			(type default)
 		)
 		(uuid "5a704f82-5a54-42d4-a217-3e3aadb82c80")
+	)
+	(wire
+		(pts
+			(xy 67.31 128.27) (xy 74.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9931a8-2424-41d5-9ce2-b3a894772412")
+	)
+	(wire
+		(pts
+			(xy 69.85 135.89) (xy 69.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abdcf5e-a7b1-4b7e-90ac-da197a36ca68")
 	)
 	(wire
 		(pts
@@ -3434,6 +3514,16 @@
 			(type default)
 		)
 		(uuid "62447fd6-4471-48db-80b7-3a05743f5d82")
+	)
+	(wire
+		(pts
+			(xy 26.67 138.43) (xy 26.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c58e0b-d904-4eeb-819d-0af2448828dc")
 	)
 	(wire
 		(pts
@@ -3487,16 +3577,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.73) (xy 93.98 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66e15a50-23e2-41a8-801e-dea93436ae86")
-	)
-	(wire
-		(pts
 			(xy 123.19 123.19) (xy 123.19 167.64)
 		)
 		(stroke
@@ -3544,16 +3624,6 @@
 			(type default)
 		)
 		(uuid "6e9d2297-49a3-4055-b821-638d0c34db7d")
-	)
-	(wire
-		(pts
-			(xy 69.85 109.22) (xy 69.85 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7006e0c2-adcb-4f8b-899f-901f6cf74a4c")
 	)
 	(wire
 		(pts
@@ -3697,16 +3767,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 74.93 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831237fc-d68f-4f5b-9593-b4654b53e93a")
-	)
-	(wire
-		(pts
 			(xy 120.65 123.19) (xy 120.65 148.59)
 		)
 		(stroke
@@ -3794,16 +3854,6 @@
 			(type default)
 		)
 		(uuid "8f5ef415-22b7-4c86-ba29-847ecfb919e9")
-	)
-	(wire
-		(pts
-			(xy 93.98 125.73) (xy 93.98 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f8fde47-7b2a-4ba8-93e2-80531ebd270d")
 	)
 	(wire
 		(pts
@@ -3897,26 +3947,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 121.92) (xy 74.93 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99aeaef6-6eb5-49a3-b4d2-16e2a8e5ce58")
-	)
-	(wire
-		(pts
-			(xy 74.93 110.49) (xy 74.93 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b7f89d7-0fe0-48bc-b6b8-9b8a7369ca05")
-	)
-	(wire
-		(pts
 			(xy 135.89 105.41) (xy 144.78 105.41)
 		)
 		(stroke
@@ -3934,6 +3964,16 @@
 			(type default)
 		)
 		(uuid "a21e2f0e-92c8-4c08-80db-162fb44a54e8")
+	)
+	(wire
+		(pts
+			(xy 69.85 130.81) (xy 69.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d734ab-8bcf-4959-b0c8-d77ced81a498")
 	)
 	(wire
 		(pts
@@ -4007,6 +4047,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 130.81) (xy 33.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaabbb57-399a-4b41-b069-c8933a258496")
+	)
+	(wire
+		(pts
 			(xy 60.96 73.66) (xy 73.66 73.66)
 		)
 		(stroke
@@ -4044,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "ae38db54-60d1-4056-8b54-720d2879a94f")
-	)
-	(wire
-		(pts
-			(xy 66.04 105.41) (xy 95.25 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af2328ca-f925-4e5e-88a6-18b7463a2dc7")
 	)
 	(wire
 		(pts
@@ -4117,6 +4157,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 128.27) (xy 26.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d240a2-69a4-4802-b702-574b28390b42")
+	)
+	(wire
+		(pts
 			(xy 135.89 80.01) (xy 190.5 80.01)
 		)
 		(stroke
@@ -4157,6 +4207,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 105.41) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74d7bbd-430b-43d0-89d4-0f67f24f2d9f")
+	)
+	(wire
+		(pts
 			(xy 238.76 80.01) (xy 238.76 88.9)
 		)
 		(stroke
@@ -4174,6 +4234,16 @@
 			(type default)
 		)
 		(uuid "bd1fc0aa-41c5-41b8-b351-d6f93f5e4013")
+	)
+	(wire
+		(pts
+			(xy 67.31 130.81) (xy 69.85 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6d88d3-1451-4a72-aaf3-9e26413240c0")
 	)
 	(wire
 		(pts
@@ -4317,16 +4387,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 115.57) (xy 81.28 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac237e2-ce80-4266-9914-2380a567f677")
-	)
-	(wire
-		(pts
 			(xy 209.55 143.51) (xy 207.01 143.51)
 		)
 		(stroke
@@ -4374,16 +4434,6 @@
 			(type default)
 		)
 		(uuid "e0e502a8-93ae-40d2-8a85-deccc9c2c03c")
-	)
-	(wire
-		(pts
-			(xy 78.74 115.57) (xy 81.28 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b0b405-f910-4e80-9f68-279d05a9d8e2")
 	)
 	(wire
 		(pts
@@ -4477,6 +4527,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 130.81) (xy 33.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02c1cd9-5061-414e-9e5d-d346af8c90af")
+	)
+	(wire
+		(pts
 			(xy 100.33 133.35) (xy 100.33 134.62)
 		)
 		(stroke
@@ -4547,16 +4607,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 69.85 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9fca39e-e086-4189-be98-3890ec28b190")
-	)
-	(wire
-		(pts
 			(xy 243.84 77.47) (xy 243.84 80.01)
 		)
 		(stroke
@@ -4585,6 +4635,17 @@
 		)
 		(uuid "fe0ac445-74cf-467a-97dd-08ec802a8eca")
 	)
+	(text "Clipped Sine Wave Oscillator\n- Series C eliminates DC component\n- MCU acciepots clock above zero so the \n  clock signal gets biased (increased)\n  inside the MCU."
+		(exclude_from_sim no)
+		(at 65.278 142.24 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "039c5164-1c72-4515-b1f3-78b030c4365f")
+	)
 	(text "PIN1 NC = Oscillation"
 		(exclude_from_sim no)
 		(at 225.806 86.868 0)
@@ -4599,7 +4660,7 @@
 	)
 	(text "The load capacitances are integrated on chip and \ncan be tuned according to the selected crystal via \nan internal register. By default, the load capacitances \nare 8 pF for the NX2016 from NDK used on the boards.\n\nRCC clock HSE register (RCC_HSECR)\nBits 13:8 HSETUNE[5:0]: HSE capacitor tuning\nCan be changed by software. Do not change when HSE is on.\n0x00: minimum load capacitance\n0x3F maximum load capacitance"
 		(exclude_from_sim no)
-		(at 38.354 150.622 0)
+		(at 90.932 184.912 0)
 		(effects
 			(font
 				(size 1 1)
@@ -4639,16 +4700,6 @@
 			(justify left bottom)
 		)
 		(uuid "48f03a45-b548-48a1-9702-f45ddac55dd6")
-	)
-	(text "Load Capacitors are inside the MCU\nSet RCC_HSECR register"
-		(exclude_from_sim no)
-		(at 54.864 120.65 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "5ad75dba-2b0d-4e29-be91-d42ea2e5f1c1")
 	)
 	(text "The external capacitor \non NRST must be placed \nas close as possible to \nthe device."
 		(exclude_from_sim no)
@@ -4846,7 +4897,7 @@
 		(uuid "409a63fc-c5d5-426d-8264-320573f722fd")
 	)
 	(label "OSC_IN"
-		(at 81.28 105.41 0)
+		(at 87.63 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4932,17 +4983,6 @@
 			(justify right bottom)
 		)
 		(uuid "888d0e06-4048-4394-90ea-0fad478ec042")
-	)
-	(label "OSC_OUT"
-		(at 81.28 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ec4fd9a-60ea-4fd2-8037-17a756e69e92")
 	)
 	(label "SMPS_LXL"
 		(at 54.61 85.09 0)
@@ -5042,6 +5082,17 @@
 			(justify right bottom)
 		)
 		(uuid "c885bb0d-7433-4d24-b491-df87e1e7031b")
+	)
+	(label "OSC_OUTPUT"
+		(at 74.93 121.92 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d301050f-a76c-434a-aad7-893ef21c3b60")
 	)
 	(label "NRST"
 		(at 153.67 92.71 180)
@@ -5562,79 +5613,6 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Personal_Projects:ABM3B-32.000MHZ-10-R30-B1U-T")
-		(at 74.93 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a455dca-ba8e-4ccb-9d7b-d17a7e836b52")
-		(property "Reference" "Y1"
-			(at 76.962 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ABM3B-32.000MHZ-8-R30-B1U-T"
-			(at 66.04 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Personal_Project:XTAL_ABM3B-32.000MHZ-10-R30-B1U-T"
-			(at 74.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e96ebfb1-f8ed-4ee2-8408-ba7e9f2f87a7")
-		)
-		(pin "2"
-			(uuid "50bcd238-ae8b-4314-b5ce-aa8105988e91")
-		)
-		(pin "3"
-			(uuid "a1940422-1c2a-4c3f-bb52-0c399a831f6f")
-		)
-		(pin "4"
-			(uuid "850b9dff-9bc0-4677-98db-cd8fbc54bd3d")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -6457,6 +6435,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 26.67 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bd3f526-aa32-46e7-ac8d-28733a0738b4")
+		(property "Reference" "C28"
+			(at 28.956 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 29.464 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 25.7048 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b48de033-8a0e-484a-bac3-3048df8df9f8")
+		)
+		(pin "2"
+			(uuid "5f46986a-79e3-403c-8c46-46b106a78589")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Personal_Projects:STM32WB55CGU6")
 		(at 135.89 77.47 0)
 		(mirror y)
@@ -7178,6 +7223,73 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e588327-a59c-4d4e-96c2-c7889595da13")
+		(property "Reference" "#PWR055"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1b9eadd-86dc-4e17-8c62-71ff1b111b8d")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8208,6 +8320,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Personal_Projects:Oscillator_ECS-TXO-32CSMV-320-AN-TR")
+		(at 34.29 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2defe80-f52f-4c01-96e7-c0d5bbd219b8")
+		(property "Reference" "OS2"
+			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_ATX-11-F-32.000MHZ-F05-T"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Personal_Project:Oscillator_ECSTXO32CSMV320ANTR"
+			(at 68.58 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-32CSMV.pdf"
+			(at 68.58 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TCXO Oscillators 32.000 MHz MultiVolt TCXO Clipped Sine Wave 1.7 - 3.465V +/-500ppb -40 - +85C 3.2 x 2.5mm 4-SMD"
+			(at 34.29 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 68.58 523.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "520-TXO32CSMV320ANTR"
+			(at 68.58 623.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-TXO-32CSMV-320-AN-TR?qs=i8QVZAFTkqSFD5tboM1KdA%3D%3D"
+			(at 68.58 723.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ECS"
+			(at 68.58 823.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ECS-TXO-32CSMV-320-AN-TR"
+			(at 68.58 923.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fe9bd811-ca0d-47bc-8842-740b951eeb96")
+		)
+		(pin "3"
+			(uuid "05097475-a409-4ebb-a2f7-855e451ad984")
+		)
+		(pin "2"
+			(uuid "49ff39cd-b87b-4992-8848-48d3ef2aaf57")
+		)
+		(pin "1"
+			(uuid "374fae26-58c6-4eb0-b40b-e59284670829")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
+					(reference "OS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 219.71 147.32 0)
 		(mirror y)
@@ -8752,6 +8989,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 26.67 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6961210-3b7b-4a0a-95bd-bbb36a0a3ada")
+		(property "Reference" "#PWR058"
+			(at 26.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540685e0-17f9-479b-82c2-2def98575ae3")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 22.86 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7dd15a3-3300-46ef-97d3-0bfd3a74b8ed")
+		(property "Reference" "#PWR053"
+			(at 22.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 20.828 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 22.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3cc5bf-db8c-4326-94db-6b5d291218bf")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 194.31 80.01 90)
 		(unit 1)
@@ -8813,73 +9184,6 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ded8ad56-64e4-4845-b1dd-74a7698d0b93")
-		(property "Reference" "#PWR023"
-			(at 74.93 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a1e956c-5367-43bb-9867-819674e8dcb8")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9219,6 +9523,74 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 105.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0a63f24-35f8-4add-8915-6a416f852a98")
+		(property "Reference" "C23"
+			(at 80.264 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n"
+			(at 86.868 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 80.01 104.4448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d253b5da-63b9-4479-8486-f3c2946fd356")
+		)
+		(pin "2"
+			(uuid "44f53b43-f655-4666-a2b5-530fcd2660c9")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/464223bd-828e-49c3-9bc8-b6e1bd32cff7"
+					(reference "C23")
 					(unit 1)
 				)
 			)

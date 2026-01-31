@@ -1799,108 +1799,259 @@
 				)
 			)
 		)
-		(symbol "Personal_Projects:FPC_0545481072"
+		(symbol "Personal_Projects:FPC_10051922-1010ELF"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "FPC"
-				(at 12.7 6.35 0)
+				(at 12.7 8.89 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "FPC_0545481072"
-				(at 12.7 3.81 0)
+			(property "Value" "FPC_10051922-1010ELF"
+				(at 25.4 6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "Personal_Project:FPC_0545481072"
-				(at 21.59 -94.92 0)
+			(property "Footprint" "Personal_Project:FPC_10051922_1010"
+				(at 0 -46.99 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/545481072?display=pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.50mm Pitch Easy-On FFC/FPC Connector, 1.20mm Height, Right-Angle, Surface Mount, ZIF, Bottom Contact Style, 10 Circuits, Gold (Au) Plating"
-				(at 0 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Height" "1.3"
-				(at 21.59 -394.92 0)
+			(property "Datasheet" "10051922-1010ELF"
+				(at 0 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 12.7 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "0545481072"
-				(at 21.59 -494.92 0)
+			(property "ki_keywords" "10051922-1010ELF"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -594.92 0)
+			(property "ki_fp_filters" "CON10_1X10_DRB_58GF_JAE"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Molex"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "FPC_10051922-1010ELF_0_1"
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "0545481072"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(justify left top)
-					(hide yes)
+				)
+				(pin passive line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -20.32 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
-			(symbol "FPC_0545481072_1_1"
+			(symbol "FPC_10051922-1010ELF_1_1"
 				(rectangle
 					(start 0 0)
 					(end 5.08 -22.86)
@@ -1921,42 +2072,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -22.86 180)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -1988,150 +2103,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -15.24 180)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -17.78 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -20.32 180)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4814,157 +4785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Personal_Projects:FPC_0545481072")
-		(at 53.34 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "935b8fb1-b38f-4ac4-acae-6dbde8946b0a")
-		(property "Reference" "FPC1"
-			(at 63.246 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FPC_0545481072"
-			(at 75.184 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Personal_Project:FPC_0545481072"
-			(at 74.93 136.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/545481072?display=pdf"
-			(at 74.93 236.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.50mm Pitch Easy-On FFC/FPC Connector, 1.20mm Height, Right-Angle, Surface Mount, ZIF, Bottom Contact Style, 10 Circuits, Gold (Au) Plating"
-			(at 53.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 74.93 436.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0545481072"
-			(at 74.93 536.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 74.93 636.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 74.93 736.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0545481072"
-			(at 74.93 836.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "25e3016a-d406-4afe-9bd3-acfe5fe636e5")
-		)
-		(pin "7"
-			(uuid "0d5db59e-d529-4685-8d85-75fe3b5f8e4a")
-		)
-		(pin "6"
-			(uuid "658443ee-a507-40b0-9ca8-c4eb3c321307")
-		)
-		(pin "5"
-			(uuid "e6704c40-92b4-4e85-89d2-6f53ae1c045f")
-		)
-		(pin "2"
-			(uuid "8b802138-c205-499a-9ad5-3fb1d5b6aac3")
-		)
-		(pin "8"
-			(uuid "00280456-55b6-4dfe-b75e-54436d3ef9c7")
-		)
-		(pin "3"
-			(uuid "3d53c005-f15f-44fe-9810-2df368017170")
-		)
-		(pin "10"
-			(uuid "7753c071-cd9b-4d2c-b7c6-d4a1277c6e44")
-		)
-		(pin "12"
-			(uuid "7fe6bf3d-b144-4b60-903b-635c0ba47ba8")
-		)
-		(pin "11"
-			(uuid "9a9800e0-aaf1-47ee-ac07-a4a1ed1ae426")
-		)
-		(pin "9"
-			(uuid "fb228307-6a90-49bd-921a-b5dbcc888844")
-		)
-		(pin "1"
-			(uuid "a353c931-1e9e-4fda-b5ea-31974e515ca8")
-		)
-		(instances
-			(project "Bluetooth_Board"
-				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/abc98c8d-e19e-4e25-aa44-7b8f1ef72b8d"
-					(reference "FPC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Personal_Projects:Diode_PESD5V0U2BT-Q")
 		(at 204.47 142.24 0)
 		(unit 1)
@@ -5598,6 +5418,107 @@
 			(project "Bluetooth_Board"
 				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/abc98c8d-e19e-4e25-aa44-7b8f1ef72b8d"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Personal_Projects:FPC_10051922-1010ELF")
+		(at 53.34 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5fa9816-6c95-43c9-bac1-062957b1d128")
+		(property "Reference" "FPC1"
+			(at 64.77 25.654 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FPC_10051922-1010ELF"
+			(at 87.63 28.448 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Personal_Project:FPC_10051922_1010"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10051922-1010ELF"
+			(at 53.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7158a051-6cbe-4a36-99b7-99a41036dd00")
+		)
+		(pin "9"
+			(uuid "5d744a4b-b427-4a6c-9e8e-1816d3acaae1")
+		)
+		(pin "4"
+			(uuid "0fa3095c-416f-4686-86c9-abd62b485d08")
+		)
+		(pin "7"
+			(uuid "2f946e11-e018-4e6a-a5c5-700bd45aa667")
+		)
+		(pin "2"
+			(uuid "8977ae19-6925-478e-ab15-b8571f6f4a68")
+		)
+		(pin "5"
+			(uuid "17d93820-5e2f-4cf5-90ee-eb366d80e80b")
+		)
+		(pin "3"
+			(uuid "47e7ada5-e04b-4534-bf51-97d11102e8f8")
+		)
+		(pin "8"
+			(uuid "dd797cd5-085d-48a8-a937-4124f02d848a")
+		)
+		(pin "12"
+			(uuid "f82ca469-52b5-4484-8413-5a6f9ec1724e")
+		)
+		(pin "10"
+			(uuid "748b5ced-7167-46dd-a8db-c4eb9c3c0e28")
+		)
+		(pin "1"
+			(uuid "d6e2b2be-58f7-45f4-9042-5142f9972fa8")
+		)
+		(pin "11"
+			(uuid "2a8029ff-f0a8-4955-ba27-fb1987309005")
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968/abc98c8d-e19e-4e25-aa44-7b8f1ef72b8d"
+					(reference "FPC1")
 					(unit 1)
 				)
 			)

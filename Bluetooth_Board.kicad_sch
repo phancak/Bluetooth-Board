@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "05989bb3-969e-4aaa-b344-5f0e2d5af968")
 	(paper "USLetter")
 	(title_block
@@ -11,6 +11,26 @@
 		(company "Peter Hancak")
 	)
 	(lib_symbols)
+	(text_box "Notes:\n\nVDD: 3V3\nAverage Current 8.8 mA (10mA) (Estimated from report)\n\n1. Programming - SW is inteneded but all pins will be exposed \nfor possible JTAG interface\n2. LDO is intended to be used with USB VBUS power supply\n   (When running the device through USB power)\n\n4u7F Capacitor Placement Strategy:\nNear the Most Critical VDD Pin\nIf one VDD pin powers the core logic (e.g., MCU core supply), place \nthe 4.7µF capacitor closest to that pin. This ensures stability where power \ndemand is highest. At a Central Power Distribution Point\nIf all VDD pins are connected to a common power plane, place the 4.7µF \ncapacitor near the entry point of VDD to the PCB or close to where power is \ndistributed to all VDD pins.\nThis helps smooth out power fluctuations before it reaches different ICs.\nComplement with Smaller Capacitors (0.1µF)\nPlace 0.1µF capacitors close to each VDD pin for high-frequency noise filtering.\nThe 4.7µF capacitor handles bulk power stabilization, while 0.1µF capacitors \nhandle high-frequency noise.\nGeneral Rule:\nIf in doubt, place the 4.7µF capacitor near the largest power consumer (MCU, RF module, etc.).\n\nUsing external oscilator as LSE the PC15-OSC32_OUT can be used as a GPIO\n\nVREF+ pin is not available on all packages, when not available it is internally bonded to\nVDDA. When the VREF+ is double-bonded with VDDA in a package, the internal\nvoltage reference buffer is not available and must be kept disabled (refer to the\ndatasheet for pinout descriptions).\n\nOn the STM32WB55CGU6, the AT0 (Alternate Test 0) pin is typically used for factory\ntesting and internal debugging by STMicroelectronics. It is not intended for user \napplications and generally should be left unconnected unless specified otherwise in \nthe reference manual or datasheet.\n\nUSB Differential Pair\nCalculated on JLCPB website\nbased on 90 Ohm, 0.25mm spacing, 9.35mm trace to copper\n0.1669 mmm track width"
+		(exclude_from_sim no)
+		(at 257.175 121.285 0)
+		(size 93.345 98.425)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7cacca26-bd7c-47a3-ad78-c66d5455fe0d")
+	)
 	(junction
 		(at 172.72 77.47)
 		(diameter 0)
@@ -279,39 +299,26 @@
 		)
 		(uuid "ffa4efd4-557f-4946-81d6-6127cab14105")
 	)
-	(text_box "Notes:\n\nVDD: 3V3\nAverage Current 8.8 mA (10mA) (Estimated from report)\n\n1. Programming - SW is inteneded but all pins will be exposed \nfor possible JTAG interface\n2. LDO is intended to be used with USB VBUS power supply\n   (When running the device through USB power)\n\n4u7F Capacitor Placement Strategy:\nNear the Most Critical VDD Pin\nIf one VDD pin powers the core logic (e.g., MCU core supply), place \nthe 4.7µF capacitor closest to that pin. This ensures stability where power \ndemand is highest. At a Central Power Distribution Point\nIf all VDD pins are connected to a common power plane, place the 4.7µF \ncapacitor near the entry point of VDD to the PCB or close to where power is \ndistributed to all VDD pins.\nThis helps smooth out power fluctuations before it reaches different ICs.\nComplement with Smaller Capacitors (0.1µF)\nPlace 0.1µF capacitors close to each VDD pin for high-frequency noise filtering.\nThe 4.7µF capacitor handles bulk power stabilization, while 0.1µF capacitors \nhandle high-frequency noise.\nGeneral Rule:\nIf in doubt, place the 4.7µF capacitor near the largest power consumer (MCU, RF module, etc.).\n\nUsing external oscilator as LSE the PC15-OSC32_OUT can be used as a GPIO\n\nVREF+ pin is not available on all packages, when not available it is internally bonded to\nVDDA. When the VREF+ is double-bonded with VDDA in a package, the internal\nvoltage reference buffer is not available and must be kept disabled (refer to the\ndatasheet for pinout descriptions).\n\nOn the STM32WB55CGU6, the AT0 (Alternate Test 0) pin is typically used for factory\ntesting and internal debugging by STMicroelectronics. It is not intended for user \napplications and generally should be left unconnected unless specified otherwise in \nthe reference manual or datasheet.\n\nUSB Differential Pair\nCalculated on JLCPB website\nbased on 90 Ohm, 0.25mm spacing, 9.35mm trace to copper\n0.1669 mmm track width"
-		(exclude_from_sim no)
-		(at 257.175 121.285 0)
-		(size 93.345 98.425)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7cacca26-bd7c-47a3-ad78-c66d5455fe0d")
-	)
 	(sheet
 		(at 36.83 38.1)
 		(size 46.99 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "1ac22050-21cc-40c3-9af0-4a5defc56765")
 		(property "Sheetname" "RF, USB"
 			(at 36.83 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,6 +328,8 @@
 		)
 		(property "Sheetfile" "RF.kicad_sch"
 			(at 36.83 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,33 +339,33 @@
 		)
 		(pin "RF1" bidirectional
 			(at 83.82 43.18 0)
+			(uuid "b35eb70f-eea5-44f8-911f-e9a609c45bb7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b35eb70f-eea5-44f8-911f-e9a609c45bb7")
 		)
 		(pin "USB_DI_D2+" bidirectional
 			(at 83.82 71.12 0)
+			(uuid "285b2ee4-f0b9-47f2-bfcd-0f2afe4e9f71")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "285b2ee4-f0b9-47f2-bfcd-0f2afe4e9f71")
 		)
 		(pin "USB_DI_D2-" bidirectional
 			(at 83.82 73.66 0)
+			(uuid "c7715b5a-b855-4c50-a6e1-781baee2b1d1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7715b5a-b855-4c50-a6e1-781baee2b1d1")
 		)
 		(instances
 			(project "Bluetooth_Board"
@@ -367,18 +376,140 @@
 		)
 	)
 	(sheet
-		(at 36.83 96.52)
-		(size 46.99 41.91)
+		(at 36.83 149.86)
+		(size 45.72 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
+		)
+		(uuid "2c747acc-8ef8-453a-939b-8eb48f74eb35")
+		(property "Sheetname" "SWD_Buttons"
+			(at 36.83 149.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SWD_Buttons.kicad_sch"
+			(at 36.83 179.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NRST" output
+			(at 82.55 156.21 0)
+			(uuid "7f652afb-743a-45f0-bb32-960c34ffd05e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RST-BTN_0" output
+			(at 82.55 158.75 0)
+			(uuid "9e272f7d-611f-4822-aaf6-65b848323e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" output
+			(at 82.55 161.29 0)
+			(uuid "c8419533-7547-4efb-919f-501a424062f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 82.55 163.83 0)
+			(uuid "7512d5bd-861c-4747-a934-e626604432bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWO" input
+			(at 82.55 166.37 0)
+			(uuid "16fd08df-1224-4248-8a80-71cae883fbd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USR_BTN_0" output
+			(at 82.55 168.91 0)
+			(uuid "856dbf6b-b78d-4360-9161-f99e210d6a60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USR_BTN_1" output
+			(at 82.55 171.45 0)
+			(uuid "b29cabbe-f5f2-4cfe-a62c-6c37cddcc24c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Bluetooth_Board"
+				(path "/05989bb3-969e-4aaa-b344-5f0e2d5af968"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 96.52)
+		(size 46.99 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1)
 		)
 		(uuid "36e69f24-2421-4b22-97a3-2ccc77cc83b8")
 		(property "Sheetname" "Power_Management"
 			(at 36.957 95.631 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,6 +519,8 @@
 		)
 		(property "Sheetfile" "Power_Management.kicad_sch"
 			(at 36.83 138.3796 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,13 +530,13 @@
 		)
 		(pin "*RST" bidirectional
 			(at 83.82 132.08 0)
+			(uuid "a855f99f-c3a5-415b-b680-23224b7b4366")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a855f99f-c3a5-415b-b680-23224b7b4366")
 		)
 		(instances
 			(project "Bluetooth_Board"
@@ -416,17 +549,23 @@
 	(sheet
 		(at 116.84 38.1)
 		(size 46.99 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "464223bd-828e-49c3-9bc8-b6e1bd32cff7")
 		(property "Sheetname" "STM32WB55CGU6"
 			(at 116.84 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,6 +575,8 @@
 		)
 		(property "Sheetfile" "STM32WB55CGU6.kicad_sch"
 			(at 116.84 138.3796 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,233 +586,233 @@
 		)
 		(pin "PA13_SWDIO" bidirectional
 			(at 163.83 80.01 0)
+			(uuid "febb0113-7623-430b-bc4e-97d0f3aea8a6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "febb0113-7623-430b-bc4e-97d0f3aea8a6")
 		)
 		(pin "PA14_SWCLK" bidirectional
 			(at 163.83 72.39 0)
+			(uuid "4f3118e8-220c-4871-918f-f923926e1292")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f3118e8-220c-4871-918f-f923926e1292")
 		)
 		(pin "USB_D-" bidirectional
 			(at 116.84 73.66 180)
+			(uuid "7b1c3f69-d232-40a8-b80b-9e3b1d666051")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7b1c3f69-d232-40a8-b80b-9e3b1d666051")
 		)
 		(pin "USB_D+" bidirectional
 			(at 116.84 71.12 180)
+			(uuid "ccf3e509-d4da-4b9c-896a-8e41dfa9c636")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ccf3e509-d4da-4b9c-896a-8e41dfa9c636")
 		)
 		(pin "PB3_SWO" bidirectional
 			(at 163.83 74.93 0)
+			(uuid "c9dfe04b-8a08-41f5-b83b-9ddff9951784")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c9dfe04b-8a08-41f5-b83b-9ddff9951784")
 		)
 		(pin "PA15" bidirectional
 			(at 163.83 85.09 0)
+			(uuid "9ba66fec-b3aa-485b-9698-207a1c7c9493")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9ba66fec-b3aa-485b-9698-207a1c7c9493")
 		)
 		(pin "PB6_USART1_TX" bidirectional
 			(at 163.83 66.04 0)
+			(uuid "77cbe77e-cfbe-4de0-9e2b-c9acdba47c57")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "77cbe77e-cfbe-4de0-9e2b-c9acdba47c57")
 		)
 		(pin "NRST" bidirectional
 			(at 163.83 77.47 0)
+			(uuid "f9007d58-6714-4f77-a352-1540538f2722")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f9007d58-6714-4f77-a352-1540538f2722")
 		)
 		(pin "PB2" bidirectional
 			(at 163.83 111.76 0)
+			(uuid "9071ef5e-dacc-46ba-a33f-2a2d99263bfe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9071ef5e-dacc-46ba-a33f-2a2d99263bfe")
 		)
 		(pin "RF1" bidirectional
 			(at 116.84 43.18 180)
+			(uuid "a3dc4169-250b-435f-a8f5-774450426b0e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a3dc4169-250b-435f-a8f5-774450426b0e")
 		)
 		(pin "PA8_MCO" bidirectional
 			(at 163.83 124.46 0)
+			(uuid "e060852b-f0e3-49b2-8d46-1769b103b93c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e060852b-f0e3-49b2-8d46-1769b103b93c")
 		)
 		(pin "PA5_SPI1_SCK" bidirectional
 			(at 163.83 48.26 0)
+			(uuid "b7dafc92-6b77-4044-925e-20b4ab605e4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b7dafc92-6b77-4044-925e-20b4ab605e4e")
 		)
 		(pin "PA4_SPI1_NSS" bidirectional
 			(at 163.83 50.8 0)
+			(uuid "1d9fc606-b36b-4d64-ae1c-70a94153882b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1d9fc606-b36b-4d64-ae1c-70a94153882b")
 		)
 		(pin "PA0" bidirectional
 			(at 163.83 114.3 0)
+			(uuid "13dedf62-2651-44af-9d55-26fd28164ef4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "13dedf62-2651-44af-9d55-26fd28164ef4")
 		)
 		(pin "PA1" bidirectional
 			(at 163.83 116.84 0)
+			(uuid "0b09110b-03ea-4c6e-8574-850922e049ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0b09110b-03ea-4c6e-8574-850922e049ac")
 		)
 		(pin "PB1" bidirectional
 			(at 163.83 129.54 0)
+			(uuid "781b92fb-aa3e-4dba-b5c8-225372e0df67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "781b92fb-aa3e-4dba-b5c8-225372e0df67")
 		)
 		(pin "PE4" bidirectional
 			(at 163.83 127 0)
+			(uuid "c8da9c82-062a-4fe3-9614-9b8d60b7f929")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c8da9c82-062a-4fe3-9614-9b8d60b7f929")
 		)
 		(pin "PB0" bidirectional
 			(at 163.83 132.08 0)
+			(uuid "339d068b-d4cd-4c66-af4d-e857b5f1c5c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "339d068b-d4cd-4c66-af4d-e857b5f1c5c1")
 		)
 		(pin "PB4_SPI1_MISO" bidirectional
 			(at 163.83 45.72 0)
+			(uuid "8b38202d-aa46-4ac2-a3e9-8fb7019da48b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8b38202d-aa46-4ac2-a3e9-8fb7019da48b")
 		)
 		(pin "PB5_SPI1_MOSI" bidirectional
 			(at 163.83 43.18 0)
+			(uuid "3f176561-19a6-42f4-ba79-416b241be842")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3f176561-19a6-42f4-ba79-416b241be842")
 		)
 		(pin "PB7" bidirectional
 			(at 163.83 121.92 0)
+			(uuid "2d3c3b7e-9c03-4534-be56-34beac89e923")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2d3c3b7e-9c03-4534-be56-34beac89e923")
 		)
 		(pin "PA10_I2C1_SDA" bidirectional
 			(at 163.83 57.15 0)
+			(uuid "3e47a145-cbaf-449f-a717-8e47f90292dc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3e47a145-cbaf-449f-a717-8e47f90292dc")
 		)
 		(pin "PA9_I2C1_SCL" bidirectional
 			(at 163.83 59.69 0)
+			(uuid "69972173-f404-44b7-bd3b-e9f126e01dd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "69972173-f404-44b7-bd3b-e9f126e01dd6")
 		)
 		(instances
 			(project "Bluetooth_Board"
@@ -684,17 +825,23 @@
 	(sheet
 		(at 194.31 38.1)
 		(size 46.99 100.33)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 255 255 1.0000)
+			(color 0 255 255 1)
 		)
 		(uuid "abc98c8d-e19e-4e25-aa44-7b8f1ef72b8d")
 		(property "Sheetname" "Interfaces"
 			(at 194.31 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,6 +851,8 @@
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
 			(at 194.31 138.3796 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,173 +862,173 @@
 		)
 		(pin "USR_BTN" output
 			(at 194.31 85.09 180)
+			(uuid "59f95abe-27db-45c0-acc5-ad324bd56122")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "59f95abe-27db-45c0-acc5-ad324bd56122")
 		)
 		(pin "I2C_SCL_HDR" bidirectional
 			(at 194.31 59.69 180)
+			(uuid "8fc4b8b7-9040-4362-9606-fc348a1ebcbe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8fc4b8b7-9040-4362-9606-fc348a1ebcbe")
 		)
 		(pin "I2C_SDA_HDR" bidirectional
 			(at 194.31 57.15 180)
+			(uuid "deef7c6c-2a07-4619-a12c-c2b13f4a1bcc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "deef7c6c-2a07-4619-a12c-c2b13f4a1bcc")
 		)
 		(pin "SPI_CS" bidirectional
 			(at 194.31 50.8 180)
+			(uuid "803a5a32-c745-4719-9851-9473616007ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "803a5a32-c745-4719-9851-9473616007ae")
 		)
 		(pin "SPI_CLK" bidirectional
 			(at 194.31 48.26 180)
+			(uuid "8cb8a73d-02a9-4f04-ab6c-31221389ccbb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8cb8a73d-02a9-4f04-ab6c-31221389ccbb")
 		)
 		(pin "NRST" output
 			(at 194.31 77.47 180)
+			(uuid "d99f7c25-5391-4a1a-843c-3b38604d3303")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d99f7c25-5391-4a1a-843c-3b38604d3303")
 		)
 		(pin "SWDIO" bidirectional
 			(at 194.31 80.01 180)
+			(uuid "80183d32-ce4f-4d2b-8158-94b516d33e33")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80183d32-ce4f-4d2b-8158-94b516d33e33")
 		)
 		(pin "SWCLK" output
 			(at 194.31 72.39 180)
+			(uuid "8d09cc1e-8d63-4c55-bb47-8dede2e9e74f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d09cc1e-8d63-4c55-bb47-8dede2e9e74f")
 		)
 		(pin "SWO" input
 			(at 194.31 74.93 180)
+			(uuid "f8249963-71f7-4734-8769-9fe119fae7c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f8249963-71f7-4734-8769-9fe119fae7c0")
 		)
 		(pin "SPI_MOSI" bidirectional
 			(at 194.31 43.18 180)
+			(uuid "79a69373-925b-40fd-9f8f-1b27fc0a0ac6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79a69373-925b-40fd-9f8f-1b27fc0a0ac6")
 		)
 		(pin "SPI_MISO" bidirectional
 			(at 194.31 45.72 180)
+			(uuid "5b06035a-c6c5-404b-b2f2-557ee18ad71e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5b06035a-c6c5-404b-b2f2-557ee18ad71e")
 		)
 		(pin "UART1_TX{slash}RX" input
 			(at 194.31 66.04 180)
+			(uuid "6ddf3e34-dffa-44cd-b5a5-dc36503c3848")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6ddf3e34-dffa-44cd-b5a5-dc36503c3848")
 		)
 		(pin "I{slash}O_HDR3" bidirectional
 			(at 194.31 129.54 180)
+			(uuid "420a6878-bccb-400d-8609-08a2547bfefd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "420a6878-bccb-400d-8609-08a2547bfefd")
 		)
 		(pin "I{slash}O_HDR2" bidirectional
 			(at 194.31 127 180)
+			(uuid "590bf6ee-b7ec-478d-a6a2-db8af3a1cdaf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "590bf6ee-b7ec-478d-a6a2-db8af3a1cdaf")
 		)
 		(pin "I{slash}O_HDR4" bidirectional
 			(at 194.31 132.08 180)
+			(uuid "fad496f8-6b1f-491d-a55b-f091716a9c57")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fad496f8-6b1f-491d-a55b-f091716a9c57")
 		)
 		(pin "I{slash}O_HDR1" bidirectional
 			(at 194.31 124.46 180)
+			(uuid "80f782ec-a615-44c6-b88d-2ec634c700b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80f782ec-a615-44c6-b88d-2ec634c700b5")
 		)
 		(pin "I{slash}O_HDR0" bidirectional
 			(at 194.31 121.92 180)
+			(uuid "5c67068a-e023-4b17-bfe4-770f0e281234")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5c67068a-e023-4b17-bfe4-770f0e281234")
 		)
 		(instances
 			(project "Bluetooth_Board"
@@ -894,4 +1043,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
